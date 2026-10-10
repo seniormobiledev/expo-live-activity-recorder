@@ -5,7 +5,7 @@ a timer on the **Lock Screen** and in the **Dynamic Island**, with **Pause / Res
 
 Built with [`expo-widgets`](https://docs.expo.dev/versions/latest/sdk/widgets/) (alpha) and [`@expo/ui`](https://docs.expo.dev/versions/latest/sdk/ui/), with **no Swift code**.
 
-📺 Video tutorial: [@seniormobiledev on YouTube](https://www.youtube.com/@seniormobiledev)
+📺 **Video tutorial:** [Expo Live Activities Tutorial on YouTube](https://youtu.be/Uj5GA-AIcWs) · [@seniormobiledev](https://www.youtube.com/@seniormobiledev)
 
 <p align="center">
   <img src="docs/demo.gif" width="300" alt="Live Activity demo on the iOS Simulator" />
