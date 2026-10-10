@@ -7,7 +7,8 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.seniormobiledev.recorder"
     },
     "android": {
       "adaptiveIcon": {
@@ -20,6 +21,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-widgets",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Record voice memos.",
+          "enableBackgroundRecording": true
+        }
+      ]
+    ],
+    "scheme": "myrecorder"
   }
 }
